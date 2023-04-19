@@ -1,0 +1,35 @@
+.logo_polimarket{
+  height: 150px;
+  width: 150px;
+}
+.logo_polimarket img{
+  height: 130px;
+  width: 130px;
+  border-radius: 20px;
+  margin: 25px;
+}
+.container_formulario{
+  margin-top: 50px;
+  margin-left: 40%;
+  width: 380px;
+  height: 380px;
+}
+.titulo_input{
+  background-color: rgb(155, 152, 152);
+  width: 30px;
+  height: 30px;
+  padding-left: 12px;
+  padding-top:12px ;
+}
+input{  
+  width: 150px;
+  height: 35px;
+}
+.formulario_input{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+button{
+  margin-left: 60px;
+}

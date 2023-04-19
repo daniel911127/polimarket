@@ -1,0 +1,15 @@
+.footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0;
+  height: 60px;
+}
+.footer p{
+ margin-left: 30px;
+}
+.social_media{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+}

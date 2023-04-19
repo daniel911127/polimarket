@@ -1,0 +1,31 @@
+.imagenes_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.imagenes_container img{
+  width: 90px;
+  height: 90px;
+}
+.info_carrito{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cart_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 500px;
+}
+.datos p{
+  margin-top: 50px;
+margin-left: 30px;
+}
+.pagar{
+  color: white;
+  background-color: red;
+  margin-top: 50px;
+  margin-left: 30px;
+}

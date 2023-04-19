@@ -1,0 +1,86 @@
+.Nav_container{
+  height: 200px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+.Nav_logo{
+  width: 200px;
+  height: 200px;
+}
+.Nav_logo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.Nav_descuento{
+  width: 250px;
+  height: 400px;
+}
+.Nav_promo{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Nav_promo img{
+  width: 150px;
+  height: 150px;
+}
+.Nav_promo div{
+  margin-top: 25px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+.Nav_promo div p{ 
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.Nav_promo p{
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+.Nav_info{
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.Nav_user{
+  font-size: 30px;
+  color: black;
+}
+.Nav_like{
+  font-size: 30px;
+}
+.Nav_cart{
+  font-size: 30px;
+  color: black;
+}
+.Nav_cart p{
+  color: white;
+  margin-left: 2px;
+  margin-top: -2px;
+  font-weight:bold;
+  font-size: 15px;
+}
+.Nav_cart div{
+  margin-left: 20px;
+  margin-top: -5px;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+}
+.Nav_cart :nth-child(1){
+  position: absolute;
+}
+
+

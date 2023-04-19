@@ -1,0 +1,30 @@
+.product_detalles{
+  height: 220px;
+  width: 220px;
+  border: 1px solid black;
+  
+}
+.product_detalles p{
+  border-top: 1px solid black;
+  
+}
+.container_prod{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.detalle_prod img{
+  width: 200px;
+  height: 200px;
+}
+.pesos{
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 30px;
+}
+.descuento{
+  background-color: rgb(5, 146, 247);
+  color:white
+}

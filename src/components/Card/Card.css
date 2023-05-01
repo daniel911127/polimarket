@@ -1,0 +1,42 @@
+.card_carrito{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.card_imagen img{
+  width: 150px;
+}
+.card_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card_header :nth-child(1){
+  color: red;
+}
+.card_header :nth-child(2){
+  background-color: yellow;
+}
+.card_detalles{
+  justify-content: center ;
+  padding: 20px;
+}
+.card_precios{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card_precios :nth-child(1){
+  color:red
+}
+.card_precios :nth-child(2){
+  color:gray;
+  text-decoration:line-through;
+}
+.card_button{
+  cursor: pointer;
+ margin: 20px;
+ width: 130px;
+ background-color: red;
+ color: white;
+}

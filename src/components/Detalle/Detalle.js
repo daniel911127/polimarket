@@ -1,16 +1,13 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
-import { useState } from "react";
+import { useContext } from "react";
+import { DataContext } from "../Context/DataContext";
 import "./Detalle.css";
-import img0 from "../../images/costillaCerdo.jpg";
 
+const images = require.context("../../images", true);
 const Detalle = () => {
-  const [busqueda, setBusqueda] = useState("");
-  const cambioBusqueda = (e) => {
-    setBusqueda(e.target.value);
-    //console.log(e.target.value)
-  };
+  console.log();
   return (
     <div className="container_detalles">
       <NavBar />
@@ -18,7 +15,7 @@ const Detalle = () => {
         <input
           type="text"
           placeholder=" 🔍 Que producto buscas?"
-          onChange={cambioBusqueda}
+          onChange=""
         ></input>
         <button type="submit">Buscar</button>
       </form>
@@ -35,7 +32,7 @@ const Detalle = () => {
           <p>Costilla de cerdo x 1000gr</p>
         </div>
         <div className="detalle_prod">
-          <img src={img0} alt="producto" />
+          <img src={images} alt="producto" />
           <p>$25.000</p>
           <p>costilla de cerdo</p>
           <p>Añadir al carrito</p>

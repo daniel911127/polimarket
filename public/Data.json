@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nombre": "Costilla de cerdo",
+    "imagen": "./costillaCerdo.jpg",
+    "categoria": "Carnes",
+    "precioKilo": 25000,
+    "precioLibra": 12900,
+    "precioUnidad": 45000,
+    "cantidad": 1,
+    "descuento": 22500
+  },
+  {
+    "id": 2,
+    "nombre": "Cabeza de cañon",
+    "imagen": "./cabezaCañon.jpg",
+    "categoria": "Carnes",
+    "precioKilo": 25000,
+    "precioLibra": 12900,
+    "precioUnidad": 45000,
+    "cantidad": 1,
+    "descuento": 22500
+  },
+  {
+    "id": 3,
+    "nombre": "Pierna Economica",
+    "imagen": "./piernaEconomica.jpg",
+    "categoria": "Carnes",
+    "precioKilo": 25000,
+    "precioLibra": 12900,
+    "precioUnidad": 45000,
+    "cantidad": 1,
+    "descuento": 22500
+  },
+  {
+    "id": 4,
+    "nombre": "Solomito de cerdo",
+    "imagen": "./solomitoCerdo.jpg",
+    "categoria": "Carnes",
+    "precioKilo": 25000,
+    "precioLibra": 12900,
+    "precioUnidad": 45000,
+    "cantidad": 1,
+    "descuento": 22500
+  },
+  {
+    "id": 5,
+    "nombre": "Pierna",
+    "imagen": "./pierna.jpg",
+    "categoria": "Carnes",
+    "precioKilo": 25000,
+    "precioLibra": 12900,
+    "precioUnidad": 45000,
+    "cantidad": 1,
+    "descuento": 22500
+  }
+]

@@ -38,46 +38,18 @@
   flex-direction: row;
   justify-content: center;
 }
-.card_precios p{
-  margin-left: 30px;
-} 
-.card_titulo{
-  margin-left: 90px;
-}
-.card_gramo{
-  margin-left: 60px;
-}
+
 .productos{
   margin-bottom: 30px;
+  margin-rights: 30px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   border: 1px solid black;
   padding: 10px;
   height: 460px;
 }
-.card_carrito{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  padding-left:15px ;
-  font-size: 18 px;
-}
-.card_carrito :nth-child(2){ 
-  background-color: yellow;
-  border: 1px solid black;
-  border-radius: 10px;
-  height: 30px;
-}
-.card_carrito :nth-child(1){ 
-  color: red;
-}
-.card_precios :nth-child(1){
-  color:red
-}
-.card_precios :nth-child(2){
-  color:gray;
-  text-decoration:line-through;
-}
+
 .product_categorias{
   height: 220px;
   width: 220px;

@@ -30,6 +30,6 @@ input{
   flex-direction: row;
   margin-bottom: 30px;
 }
-button{
+.login_button{
   margin-left: 60px;
 }

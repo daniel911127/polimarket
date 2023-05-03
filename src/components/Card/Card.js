@@ -8,8 +8,11 @@ import { DataContext } from "../Context/DataContext";
 
 const images = require.context("../../images", true);
 function Card() {
-  const { data, compra } = useContext(DataContext);
+  const { data, compra, detalle, setDetalle } = useContext(DataContext);
 
+  const detalleProd = (product) => {
+    setDetalle([product]);
+  };
   return data?.map((product) => {
     return (
       <div className="card_carrito" key={product.id}>
@@ -19,9 +22,11 @@ function Card() {
           </div>
           <div> Descuentos</div>
         </div>
-        <Link className="card_imagen" to={"./detalle"}>
-          <img src={images(product.imagen)} alt="producto" />
-        </Link>
+        <button className="imagen_button" onClick={() => detalleProd(product)}>
+          <Link className="card_imagen" to={"./detalle"}>
+            <img src={images(product.imagen)} alt="producto" />
+          </Link>
+        </button>
 
         <div className="card_detalles">
           <div className="card_titulo">{product.nombre}</div>

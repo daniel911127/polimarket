@@ -23,6 +23,7 @@
   height: 100px;
   border: 1px solid black;
   padding: 30px;
+  font-size: 15px;
 }
 .descuento{
   background-color: rgb(5, 146, 247);

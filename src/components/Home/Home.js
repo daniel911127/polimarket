@@ -1,6 +1,5 @@
 import NavBar from "../NavBar/NavBar";
 import "./Home.css";
-import { useState } from "react";
 import Card from "../Card/Card";
 import Footer from "../Footer/Footer";
 

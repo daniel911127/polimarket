@@ -23,6 +23,11 @@
   height: 25px;
   border-radius: 15px;
 }
+.admin_product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .logo_admin{
   display: flex;
   flex-direction: row;
@@ -56,6 +61,7 @@
 }
 .botones_admin input{
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .botones_admin :nth-child(1){
   background-color: rgb(144, 215, 39);
@@ -74,4 +80,23 @@
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid black;
+}
+.admin_product{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.card_admin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.card_admin img {
+  height: 100px;
+  width: 100px;
+}
+.datos{
+  width: 130px;
+  height: 30px;
 }

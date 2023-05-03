@@ -6,9 +6,24 @@ export const DataContext = createContext();
 const DataProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [cart, setCart] = useState([]);
+  const [detalle, setDetalle] = useState([]);
+  const [admin, setAdmin] = useState([]);
+  const [body, setBody] = useState({ usuario: "", contraseña: "" });
+  const [anadir, setAnadir] = useState({
+    id: 0,
+    nombre: "",
+    imagen: "",
+    categoria: "",
+    precioKilo: 0,
+    precioLibra: 0,
+    precioUnidad: 0,
+    cantidad: 0,
+    descuento: 0,
+  });
 
   useEffect(() => {
     axios.get("Data.json").then((res) => setData(res.data));
+    axios.get("Admin.json").then((res) => setAdmin(res.data));
   }, []);
 
   const compra = (product) => {
@@ -26,7 +41,22 @@ const DataProvider = ({ children }) => {
     }
   };
   return (
-    <DataContext.Provider value={{ data, cart, setCart, compra }}>
+    <DataContext.Provider
+      value={{
+        data,
+        cart,
+        setCart,
+        compra,
+        detalle,
+        setDetalle,
+        admin,
+        setAdmin,
+        body,
+        setBody,
+        anadir,
+        setAnadir,
+      }}
+    >
       {children}
     </DataContext.Provider>
   );
